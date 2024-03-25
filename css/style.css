@@ -14,7 +14,6 @@
     flex-direction: column;
 }
 .square{
-    background-color: silver;
     background: linear-gradient(90deg, silver, rgb(245, 244, 244));
     width: 400px;
     height: 100px;
@@ -43,4 +42,48 @@ h2{
     height: 80px;
     background-color: black;
 }
-
+/*square numeri*/
+.silver{
+    width: 400px;
+    height: 800px;
+    background: linear-gradient(90deg, silver, rgb(245, 244, 244));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding: 20px;
+}
+button{
+    border-radius: 5px;
+}
+.numeri{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;   
+}
+.numero{ 
+    width: 75px;
+    height: 80px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.segni{
+    width: 70px;
+    height: 55px;
+    margin-left: 11px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(53, 160, 160);
+}
+#grow{
+    flex-grow: 0.75;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
